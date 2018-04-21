@@ -1,4 +1,4 @@
-# sslh
+# doceker-sslh
 Docker image exposing sslh (SSH/HTTPS/OpenVPN multiplexer) 
 
 ## Quick Start

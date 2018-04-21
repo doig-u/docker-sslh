@@ -29,7 +29,7 @@ Docker image exposing sslh (SSH/HTTPS/OpenVPN/ShadowSocks/Socks multiplexer)
 * However if you need to route to other Docker containers, don't forget to link them and then place the instance name in the environment:
  
 ```
-    docker run -d -p 443:443 --link web1 -e HTTPS_HOST=web1 -e HTTPS_PORT=443  amondit/sslh
+    docker run -d -p 443:443 --link web1 -e HTTPS_HOST=web1 -e HTTPS_PORT=443  doigu/docker-sslh
 ```
 
 ## Notes

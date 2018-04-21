@@ -6,7 +6,7 @@ Docker image exposing sslh (SSH/HTTPS/OpenVPN/ShadowSocks/Socks multiplexer)
 * Start the SSLH server process, expose port 443
 
 ```
-    docker run -d -p 443:443 --name sslh1 doigu/sslh
+    docker run -d -p 443:443 --name sslh1 doigu/docker-sslh
 ```
 
 * You can set environment variables to define the service routing (here with their default values).

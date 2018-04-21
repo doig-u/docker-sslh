@@ -1,5 +1,5 @@
 # docker-sslh
-Docker image exposing sslh (SSH/HTTPS/OpenVPN multiplexer) 
+Docker image exposing sslh (SSH/HTTPS/OpenVPN/ShadowSocks/Socks multiplexer) 
 
 ## Quick Start
 

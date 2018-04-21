@@ -20,10 +20,10 @@ Docker image exposing sslh (SSH/HTTPS/OpenVPN/ShadowSocks/Socks multiplexer)
      OPENVPN_PORT 1194
      HTTPS_HOST localhost
      HTTPS_PORT 8443
-     ENV SHADOWSOCKS_HOST localhost
-     ENV SHADOWSOCKS_PORT 8388
-     ENV SOCKS_HOST localhost
-     ENV SOCKS_PORT 1080
+     SHADOWSOCKS_HOST localhost
+     SHADOWSOCKS_PORT 8388
+     SOCKS_HOST localhost
+     SOCKS_PORT 1080
 ```
 
 * However if you need to route to other Docker containers, don't forget to link them and then place the instance name in the environment:
